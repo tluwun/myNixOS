@@ -53,12 +53,11 @@
                 };
 
             };
+
             devShells.${system}.default = pkgs.mkShell {
                 packages = with pkgs; [ clang_19 llvm_19 clang-analyzer binutils python313Packages.django nasm nodejs_23 cmake ];
-                #shellHook = ''
-                    #zsh
-                #'';
             };
+
             packages.${system}.default = pkgs.writeShellScriptBin "hello" ''
                 echo "Hello world!"
             '';
