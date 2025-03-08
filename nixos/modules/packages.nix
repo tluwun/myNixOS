@@ -1,7 +1,7 @@
 { pkgs, ... }:
 { 
     environment.systemPackages = with pkgs; [
-            hyprlock
+            swaylock
             transmission_4-gtk
             swww
             waybar
