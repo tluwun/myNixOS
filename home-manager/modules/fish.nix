@@ -33,6 +33,8 @@
             hms = "home-manager switch --flake ${flakePath}";
             rebuild-switch = "sudo nixos-rebuild switch --flake ${flakePath}";
             rebuild-boot = "sudo nixos-rebuild boot --flake ${flakePath}";
+            update-boot = "sudo nixos-rebuild boot --flake ${flakePath} --upgrade";
+            update-switch = "sudo nixos-rebuild boot --flake ${flakePath} --upgrade";
             v = "nvim";
             devShell = "nix develop ${flakePath}";
         };
