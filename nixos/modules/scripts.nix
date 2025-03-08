@@ -15,7 +15,7 @@
         shutdown)
             exec systemctl poweroff -i;;
         lock)
-            exec hyprlock;;
+            exec swaylock;;
     esac                       
         '')
         (pkgs.writeShellScriptBin "waybar-weather" ''
