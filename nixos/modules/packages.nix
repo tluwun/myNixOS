@@ -1,7 +1,7 @@
 { pkgs, ... }:
 { 
     environment.systemPackages = with pkgs; [
-            swaylock
+            swaylock-effects
             transmission_4-gtk
             swww
             waybar
