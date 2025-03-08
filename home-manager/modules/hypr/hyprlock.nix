@@ -4,18 +4,20 @@
         fontSize = 30; 
         fontColor = "rgb(ebdbb2)";
 
-        imgLink = "https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/gruvbox_astro.jpg";
+        image = pkgs.fetchFromGitHub {
+                owner = "tluwun";
+                repo = "Wallpaper";
 
-
-        image = pkgs.fetchurl {
-            url = imgLink;
-            sha256 = "0kfm6g3h5rmlbz0dba18avzpvy3wlxbrp31s8f3902ysxcip4g31";
+                rev = "99272db660fe7671d6b6073d03488467532751fb";
+                sha256 = "12a889fqwq0cl78zcz6jm7k8hzgjib2cjzv29l1x1zn3wikgzg31";
         };
+
+
     in {
         enable = true;
         settings = {
             background = {
-                path = "${image}";
+                path = "${image}/Wallpaper2.jpg";
                 blur_passes = 2;
                 color = "rgb(282828)";
             };

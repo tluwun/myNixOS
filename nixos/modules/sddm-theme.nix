@@ -1,10 +1,12 @@
 { pkgs }: let 
 
-            imageLink = "https://gruvbox-wallpapers.pages.dev/wallpapers/irl/forest-2.jpg"; 
 
-            image = pkgs.fetchurl {
-                url = imageLink;
-                sha256 = "0lihk9kc1givn4fl3bhrjwizssplfpqnh826xha9jvzqg45c5b26";
+            image = pkgs.fetchFromGitHub {
+                owner = "tluwun";
+                repo = "Wallpaper";
+
+                rev = "99272db660fe7671d6b6073d03488467532751fb";
+                sha256 = "12a889fqwq0cl78zcz6jm7k8hzgjib2cjzv29l1x1zn3wikgzg31";
             };
 
         in pkgs.stdenv.mkDerivation {
@@ -25,6 +27,6 @@
                 cp ./* -r $out/
 
                 rm $out/Background.jpg
-                cp ${image} $out/Background.jpg
+                cp ${image}/Wallpaper6.jpg $out/Background.jpg
             '';
         }

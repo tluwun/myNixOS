@@ -1,10 +1,13 @@
 { pkgs, ... }:
-let 
-    imgLink = "https://gruvbox-wallpapers.pages.dev/wallpapers/pixelart/wall_secondary.png";
-    image = pkgs.fetchurl {
-        url = imgLink;
-        sha256 = "0yg47ya928b8l7i7ah9vfh31655si15sjz7lbyjpaz988cypb598";
+let
+    image = pkgs.fetchFromGitHub {
+        owner = "tluwun";
+        repo = "Wallpaper";
+
+        rev = "99272db660fe7671d6b6073d03488467532751fb";
+        sha256 = "12a889fqwq0cl78zcz6jm7k8hzgjib2cjzv29l1x1zn3wikgzg31";
     };
+
 in {
     wayland.windowManager.hyprland.settings = { 
         # Autostart
@@ -17,7 +20,7 @@ in {
             "firefox"
             "systemctl --user import-enviroment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
             "dbus-update-activation-enviroment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
-            "swww init && swww img ${image}"
+            "swww init && swww img ${image}/Wallpaper1.png"
             "telegram-desktop"
         ];
     };
