@@ -11,7 +11,7 @@
             ./alacritty.nix
             ./cava.nix
             ./btop.nix
-            #./firefox.nix
+            ./firefox.nix
             ./waybar/bundle.nix
             ./fastfetch.nix
             ./swaync/bundle.nix

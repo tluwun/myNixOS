@@ -61,9 +61,9 @@
                 up_to_date = " ";
                 modified = " !";
                 deleted = " 󰆴";
-                untracked = " !";
-                staged = "+";
-                renamed = " !";
+                untracked = " ?";
+                staged = " +";
+                renamed = " 󰑕";
             };
 
             #rust = {
