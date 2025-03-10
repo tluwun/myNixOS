@@ -1,10 +1,12 @@
 { pkgs, ... }: 
-let nurpkgs = import <nur> { inherit pkgs; }; in {
+let
+    nur = import <nixpkgs> { inherit pkgs; };
+in {
     programs.firefox = {
         enable = true;
 
         profiles.tluwun = {
-            extentions.packages = with nurpkgs.repos.rycee.firefox-addons; [
+            extentions.packages = with nur.repos.rycee.firefox-addons; [
                 privacy-badger
             ];
             settings = {
