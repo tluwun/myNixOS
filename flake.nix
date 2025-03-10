@@ -48,12 +48,17 @@
             homeConfigurations.tluwun = home-manager.lib.homeManagerConfiguration {
                 inherit pkgs;
        
-                modules = [ ./home-manager/home.nix inputs.nixvim.homeManagerModules.nixvim ];
+                modules = [ ./home-manager/home.nix inputs.nixvim.homeManagerModules.nixvim nur.homeManagerModules.nur ];
 
                 extraSpecialArgs = {
+
                     stablepkgs = import nixpkgs-stable {
                         inherit system;
                     };
+                    nurpkgs = import nur {
+                        inherit system;
+                    };
+
                     inherit inputs;
                 };
 
