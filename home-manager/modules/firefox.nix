@@ -1,13 +1,20 @@
 { pkgs, ... }: 
-let
-    nur = import <nixpkgs> { inherit pkgs; };
-in {
+{
     programs.firefox = {
         enable = true;
 
         profiles.tluwun = {
-            extentions.packages = with nur.repos.rycee.firefox-addons; [
+            extensions.packages = with pkgs.nur.repos.rycee.firefox-addons; [
                 privacy-badger
+                keepassxc-browser
+                darkreader
+                simple-translate
+                return-youtube-dislikes
+                decentraleyes
+                duckduckgo-privacy-essentials
+                ublock-origin
+                surfingkeys
+                remove-youtube-s-suggestions
             ];
             settings = {
                 "toolkit.telemetry.archive.enabled" = false;
