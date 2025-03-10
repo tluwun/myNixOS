@@ -18,6 +18,11 @@
         stylix.url = "github:danth/stylix";
 
         ags.url = "github:Aylur/ags";
+        
+        firefox-addons = { 
+            url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons"; 
+            inputs.nixpkgs.follows = "nixpkgs";
+        };
     };
 
     outputs = { nixpkgs, nixpkgs-stable, home-manager, ... }@inputs: let 
