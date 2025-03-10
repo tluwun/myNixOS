@@ -35,7 +35,7 @@
             nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
                 inherit system;
                 
-                modules = [ ./nixos/configuration.nix inputs.stylix.nixosModules.stylix nur.nixosModules.nur ];
+                modules = [ ./nixos/configuration.nix inputs.stylix.nixosModules.stylix nur.modules.nixos.default ];
                 
                 specialArgs = {
                     
