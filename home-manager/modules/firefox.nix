@@ -15,6 +15,7 @@
                 ublock-origin
                 surfingkeys
                 remove-youtube-s-suggestions
+                adaptive-tab-bar-colour
             ];
             settings = {
                 "toolkit.telemetry.archive.enabled" = false;
