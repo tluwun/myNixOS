@@ -50,8 +50,6 @@
        
                 modules = [ ./home-manager/home.nix inputs.nixvim.homeManagerModules.nixvim ];
 
-                useGlobalPkgs = true;
-                useUserPackages = true;
                 extraSpecialArgs = {
                     stablepkgs = import nixpkgs-stable {
                         inherit system;
