@@ -60,6 +60,7 @@
                     };
 
                     inherit inputs;
+                    inherit nur;
                 };
 
             };
