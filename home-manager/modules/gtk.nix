@@ -3,14 +3,14 @@
         
         	enable = true;
 
-        	theme = {
+            theme = {
             	package = pkgs.gruvbox-gtk-theme;
             	name = "Gruvbox-Dark";
-        	};
+            };
         
             iconTheme = {
                 
-                package = pkgs.gruvbox-plus-icons; 
+                package = stablepkgs.gruvbox-plus-icons; 
                 name = "Gruvbox-Plus-Dark";
             }; 
 
