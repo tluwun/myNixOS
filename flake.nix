@@ -19,13 +19,13 @@
 
         ags.url = "github:Aylur/ags";
         
-        nur = { 
-            url = "github:nix-community/NUR"; 
+        nur = {
+            url = "github:nix-community/NUR";
             inputs.nixpkgs.follows = "nixpkgs";
         };
     };
 
-    outputs = { nixpkgs, nixpkgs-stable, home-manager, ... }@inputs: let 
+    outputs = { nixpkgs, nixpkgs-stable, home-manager, nur, ... }@inputs: let 
 
             system = "x86_64-linux";
 
@@ -35,7 +35,7 @@
             nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
                 inherit system;
                 
-                modules = [ ./nixos/configuration.nix inputs.stylix.nixosModules.stylix ];
+                modules = [ ./nixos/configuration.nix inputs.stylix.nixosModules.stylix nur.nixosModules.nur ];
                 
                 specialArgs = {
                     
@@ -50,6 +50,8 @@
        
                 modules = [ ./home-manager/home.nix inputs.nixvim.homeManagerModules.nixvim ];
 
+                useGlobalPkgs = true;
+                useUserPackages = true;
                 extraSpecialArgs = {
                     stablepkgs = import nixpkgs-stable {
                         inherit system;
@@ -66,6 +68,7 @@
             packages.${system}.default = pkgs.writeShellScriptBin "hello" ''
                 echo "Hello world!"
             '';
+            
         };
         
 }
