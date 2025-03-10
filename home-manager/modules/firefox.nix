@@ -1,9 +1,9 @@
-{ pkgs, ... }: {
+{ inputs, ... }: {
     programs.firefox = {
         enable = true;
 
         profiles.tluwun = {
-            extentions.packages = with pkgs.nur.repos.rycee.firefox-addons; [
+            extentions.packages = with inputs.firefox-addons.packages."x86_64-linux"; [
                 surfingkeys
                 privacy-badger
                 ublock-origin
