@@ -35,6 +35,7 @@
             # Інші Правила
             "float, class:(.blueman-manager-wrapped), title:(Bluetooth Devices)"
             "workspace 3,class:(org.telegram.desktop)"
+            "workspace 4, class:(org.keepassxc.KeePassXC)"
         ];
     };
 }
