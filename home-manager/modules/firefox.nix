@@ -3,7 +3,9 @@
     programs.firefox = {
         enable = true;
 
+        languagePacks = [ "uk" "en_US" ];
         profiles.tluwun = {
+
             extensions.packages = with pkgs.nur.repos.rycee.firefox-addons; [
                 privacy-badger
                 keepassxc-browser
@@ -17,6 +19,7 @@
                 remove-youtube-s-suggestions
                 adaptive-tab-bar-colour
             ];
+
             settings = {
                 "toolkit.telemetry.archive.enabled" = false;
                 "toolkit.telemetry.bhrPing.enabled" = false;
