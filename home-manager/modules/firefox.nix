@@ -1,13 +1,11 @@
-#{ inputs, ... }: 
+{ pkgs, ... }: 
 {
     programs.firefox = {
         enable = true;
 
         profiles.tluwun = {
-            extentions.packages = [
-                {
-                    
-                }
+            extentions.packages = with pkgs.nur.repos.rycee.firefox-addons; [
+                privacy-badger
             ];
             settings = {
                 "toolkit.telemetry.archive.enabled" = false;
