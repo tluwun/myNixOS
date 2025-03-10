@@ -3,14 +3,14 @@
         enable = true;
 
         profiles.tluwun = {
-            #extentions = with pkgs.nur.repos.rycee.firefox-addons; [
-                #surfingkeys
-                #privacy-badger
-                #ublock-origin
-                #youtube-shorts-block
-                #return-youtube-dislikes
-                #bitwarden
-            #];
+            extentions.packages = with pkgs.nur.repos.rycee.firefox-addons; [
+                surfingkeys
+                privacy-badger
+                ublock-origin
+                youtube-shorts-block
+                return-youtube-dislikes
+                bitwarden
+            ];
             settings = {
                 "toolkit.telemetry.archive.enabled" = false;
                 "toolkit.telemetry.bhrPing.enabled" = false;
