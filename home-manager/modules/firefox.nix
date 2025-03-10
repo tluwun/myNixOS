@@ -1,15 +1,13 @@
-{ inputs, ... }: {
+#{ inputs, ... }: 
+{
     programs.firefox = {
         enable = true;
 
         profiles.tluwun = {
-            extentions.packages = with inputs.firefox-addons.packages."x86_64-linux"; [
-                surfingkeys
-                privacy-badger
-                ublock-origin
-                youtube-shorts-block
-                return-youtube-dislikes
-                bitwarden
+            extentions.packages = [
+                {
+                    
+                }
             ];
             settings = {
                 "toolkit.telemetry.archive.enabled" = false;
