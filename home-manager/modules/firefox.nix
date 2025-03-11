@@ -18,6 +18,7 @@
                 surfingkeys
                 remove-youtube-s-suggestions
                 adaptive-tab-bar-colour
+                sponsorblock
             ];
 
             settings = {
