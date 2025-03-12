@@ -56,5 +56,6 @@
             polkit_gnome
             xfce.tumbler
             tty-clock
+            wireguard-tools
         ];
 }
