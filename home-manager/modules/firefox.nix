@@ -19,7 +19,7 @@
                 remove-youtube-s-suggestions
                 adaptive-tab-bar-colour
                 sponsorblock
-                i-dont-care-about-cockies
+                i-dont-care-about-cookies
             ];
 
             settings = {
