@@ -18,7 +18,7 @@
         ./udisks.nix
         #./stylix.nix
         ./wireguard.nix
-        ./xserver.nix
+        #./xserver.nix
         ./virt-manager.nix
         ./tlp.nix
         ./zram.nix
