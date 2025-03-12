@@ -7,7 +7,7 @@
                 layer = "top";
                 height = 52;
                 modules-left = [ "custom/mainMenu" "hyprland/workspaces" "tray" ];
-                modules-right = [ "battery" "pulseaudio" "custom/weather" "network" "hyprland/language" "custom/notificationCenter" "custom/powerMenu" ];
+                modules-right = [ "battery" "pulseaudio" "network" "hyprland/language" "custom/notificationCenter" "custom/powerMenu" ];
                 modules-center = [ "clock" ];
                 
                 "battery" = {
