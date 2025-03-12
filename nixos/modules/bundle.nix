@@ -18,13 +18,14 @@
         ./udisks.nix
         #./stylix.nix
         ./wireguard.nix
-        #./xserver.nix
+        ./xserver.nix
         ./virt-manager.nix
         ./tlp.nix
         ./zram.nix
+        ./wireguard.nix
     ];
-    #disableModules = [
-        #"./wireguard.nix"
-        #"./xserver.nix"
-    #];
+    disableModules = [
+        "./wireguard.nix"
+        "./xserver.nix"
+    ];
 }
