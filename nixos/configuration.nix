@@ -19,7 +19,6 @@
     ];
     
     networking.hostName = "nixos"; # Set a hostname
-    environment.shells = with pkgs; [ fish ];
     # Set your time zone.
     time.timeZone = "Europe/Kyiv";
     
@@ -46,8 +45,8 @@
   };
 
   # Propetary packages
-  #nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
-        #"obsidian"
-  #];
+  nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+        "obsidian"
+  ];
 
 }
