@@ -22,10 +22,9 @@
         ./virt-manager.nix
         ./tlp.nix
         ./zram.nix
-        ./wireguard.nix
     ];
-    disableModules = [
-        "./wireguard.nix"
-        "./xserver.nix"
-    ];
+    #disableModules = [
+        #"./wireguard.nix"
+        #"./xserver.nix"
+    #];
 }
