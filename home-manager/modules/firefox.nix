@@ -22,6 +22,7 @@
             ];
 
             settings = {
+                # This is settings need for privacy and security in Firefox
                 "toolkit.telemetry.archive.enabled" = false;
                 "toolkit.telemetry.bhrPing.enabled" = false;
                 "toolkit.telemetry.cachedClientID" = "";
@@ -48,8 +49,21 @@
                 "network.allow-experiments" = false;
                 "dom.ipc.plugins.reportCrashURL" = false;
                 "dom.ipc.plugins.flash.subprocess.crashreporter.enabled" = false;
+                # The other settings
                 "browser.startup.homepage" = "https://duckduckgo.com";
                 "general.useragent.locale" = "uk-UA";
+                # This is need to turn off fullscreen animation
+                "full-screen-api.transition-duration.enter" = "0";
+                "full-screen-api.transition-duration.leave" = "0";
+                "full-screen-api.warning.timeout" = 0; 
+                # Turn off a Pocket 
+                "extensions.pocket.api" = "";
+                "extensions.pocket.enabled" = false;
+                "extensions.pocket.site" = "";
+                "extensions.pocket.oAuthConsumeKey" = "";
+                # Say sites "Please dont track me"
+                "privacy.trackingprotection.enabled" = true;
+                "privacy.donottrackheader.enabled" = true;
             };
         };
     };
