@@ -48,6 +48,8 @@
                 "network.allow-experiments" = false;
                 "dom.ipc.plugins.reportCrashURL" = false;
                 "dom.ipc.plugins.flash.subprocess.crashreporter.enabled" = false;
+                "browser.startup.homepage" = "https://duckduckgo.com";
+                "general.useragent.locale" = "uk-UA";
             };
         };
     };
