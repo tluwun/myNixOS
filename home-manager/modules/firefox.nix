@@ -19,6 +19,7 @@
                 remove-youtube-s-suggestions
                 adaptive-tab-bar-colour
                 sponsorblock
+                i-dont-care-about-cockies
             ];
 
             settings = {
