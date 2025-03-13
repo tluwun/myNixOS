@@ -68,7 +68,7 @@
             };
             bookmarks = [
                 {
-                    name = "x";
+                    name = "x3";
                     url = "javascript:void(document.querySelector('video').playbackRate = 3)";
                 }
             ];
