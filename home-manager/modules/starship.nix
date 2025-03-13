@@ -9,7 +9,7 @@
         settings = {
 
             # Format string
-            format = ''[](bold white)$hostname@$username $directory $nix_shell$git_branch$git_status $time
+            format = ''[](bold white)$hostname@$username $directory $nix_shell $git_branch$git_status $time
  $character'';
 
             palette = "gruvbox";
