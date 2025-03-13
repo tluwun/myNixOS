@@ -66,6 +66,12 @@
                 "privacy.trackingprotection.enabled" = true;
                 "privacy.donottrackheader.enabled" = true;
             };
+            bookmarks = [
+                {
+                    name = "x";
+                    url = "javascript:void(document.querySelector('video').playbackRate = 3)";
+                }
+            ];
         };
     };
 }
