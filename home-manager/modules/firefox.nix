@@ -68,8 +68,16 @@
             };
             bookmarks = [
                 {
-                    name = "x3";
+                    name = "Speed 3";
                     url = "javascript:void(document.querySelector('video').playbackRate = 3)";
+                }
+                {
+                    name = "nixPackages";
+                    url = "https://search.nixos.org";
+                }
+                {
+                    name = "homeManagerOptions";
+                    url = "https://home-manager-options.extranix.com/?query=&release=master";
                 }
             ];
         };

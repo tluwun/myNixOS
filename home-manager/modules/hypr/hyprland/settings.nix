@@ -12,7 +12,7 @@
             # Settings for borders
             "col.active_border" = "rgb(458588) rgb(689d6a) 45deg";
             "col.inactive_border" = "rgb(d79921)";
-            border_size = 2;
+            border_size = 0;
             resize_on_border = false;
             
             allow_tearing = false;

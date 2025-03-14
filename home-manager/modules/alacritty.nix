@@ -5,7 +5,7 @@
 
         settings = {
             window = { 
-                opacity = 0.6;
+                opacity = 0.3;
                 decorations = "None";
             };
             colors = {
