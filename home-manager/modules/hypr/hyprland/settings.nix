@@ -32,7 +32,7 @@
             # Shadows in windows
             shadow = {
                  enabled = true;
-                 range = 4;
+                 range = 7;
                  render_power = 3;
                  color = "rgb(1d2021)";
             };
