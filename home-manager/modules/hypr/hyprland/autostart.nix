@@ -21,7 +21,7 @@ in {
             "keepassxc"
             "systemctl --user import-enviroment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
             "dbus-update-activation-enviroment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
-            "swww init && swww img ${image}/Wallpaper1.png"
+            "swww init && swww img ${image}/Wallpaper6.png"
             "telegram-desktop"
         ];
     };
