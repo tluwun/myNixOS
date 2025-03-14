@@ -31,10 +31,10 @@
         
             # Shadows in windows
             shadow = {
-                 enabled = false;
+                 enabled = true;
                  range = 4;
                  render_power = 3;
-                 color = "rgb(282828)";
+                 color = "rgb(1d2021)";
             };
             
             # Blur for windows
