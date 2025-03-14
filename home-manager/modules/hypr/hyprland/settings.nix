@@ -23,7 +23,7 @@
          
         # Decoration for window
         decoration = {
-            rounding = 8;
+            rounding = 10;
             # Chage transparency of focused and unfocused windows
             active_opacity = 1.0;
             #fullscreen_opacity = 0.0;
@@ -39,13 +39,13 @@
             
             # Blur for windows
             blur = {
-                enabled = true;
+                enabled = false;
                 size = 6;
                 passes = 3;
             };
 
             dim_inactive = true;
-            dim_strength = 0.2;
+            dim_strength = 0.3;
 
         };
         
