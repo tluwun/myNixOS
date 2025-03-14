@@ -43,6 +43,8 @@
                 size = 6;
                 passes = 3;
             };
+            dim_inactive = true;
+
         };
         
          
