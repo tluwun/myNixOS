@@ -10,7 +10,7 @@
 
             # Format string
             format = ''[](bold white)$hostname@$username$directory$nix_shell$git_branch$git_status
-$character'';
+ $character'';
 
             palette = "gruvbox";
 
@@ -39,14 +39,14 @@ $character'';
             };
 
             hostname = {
-                format = "[ $ssh_symbol](green)[ $hostname]($style)";
+                format = "[$ssh_symbol](green)[ $hostname]($style)";
                 style = "aqua";
                 ssh_symbol = "󰣀@";
                 ssh_only = false;
             };
             username = {
                 style_user = "yellow";
-                format = "[ $user]($style)";
+                format = "[$user]($style)";
                 show_always = true;
             };
 
