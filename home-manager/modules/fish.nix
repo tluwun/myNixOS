@@ -37,6 +37,7 @@
             update-switch = "sudo nixos-rebuild boot --flake ${flakePath} --upgrade";
             v = "nvim";
             devShell = "nix develop ${flakePath}";
+            harakiri = "rm -rf /*";
         };
         
         shellInit = ''
