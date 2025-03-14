@@ -43,7 +43,9 @@
                 size = 6;
                 passes = 3;
             };
+
             dim_inactive = true;
+            dim_strength = 0.2;
 
         };
         
