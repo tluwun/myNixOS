@@ -20,7 +20,7 @@
             # Правила для Терміналу
             "float, workspace: 1, class:(Alacritty), title:(Alacritty)"
             "size 796 506, workspace: 1, class:(Alacritty), title:(Alacritty)"
-            "bordersize 0, class:(Alacritty), initalTitle:(Alacritty)"
+            "noborder on, class:(Alacritty), initalTitle:(Alacritty)"
             # Правила для споміжних програм
             "float, class:(org.gnome.FileRoller), title:(Архіватор файлів)"
             "size 796 506, class:(org.gnome.FileRoller), title:(Архіватор файлів)"
