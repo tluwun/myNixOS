@@ -5,7 +5,7 @@
 
         settings = {
             window = { 
-                opacity = 0.3;
+                opacity = 1.0;
                 decorations = "None";
             };
             colors = {
@@ -33,7 +33,7 @@
                     cyan = "#8ec07c";
                     white = "#d5c4a1";
                 };
-                transparent_background_colors = true;
+                transparent_background_colors = false;
             };
             cursor = {
                 style = {
