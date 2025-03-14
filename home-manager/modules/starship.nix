@@ -9,7 +9,7 @@
         settings = {
 
             # Format string
-            format = ''[](bold white)$hostname@$username $directory $nix_shell $git_branch$git_status $time
+            format = ''[](bold white)$hostname@$username$directory$nix_shell$git_branch$git_status $time
  $character'';
 
             palette = "gruvbox";
@@ -34,36 +34,36 @@
             directory = {
                 
                 style = "blue";
-                format = "[$path]($style)";
+                format = "[ $path]($style)";
                 truncation_length = 20;
             };
 
             hostname = {
-                format = "[$ssh_symbol](green)[$hostname]($style)";
+                format = "[ $ssh_symbol](green)[ $hostname]($style)";
                 style = "aqua";
                 ssh_symbol = "󰣀@";
                 ssh_only = false;
             };
             username = {
                 style_user = "yellow";
-                format = "[$user]($style)";
+                format = "[ $user]($style)";
                 show_always = true;
             };
 
             git_branch = {
-                format = "[$branch $symbol]($style)";
+                format = "[ $symbol $branch]($style)";
                 style = "yellow";
                 symbol = "";
             };
             git_status = {
-                format = "[$all_status]($style)";
+                format = "[ $all_status]($style)";
                 style = "yellow";
-                up_to_date = " ";
-                modified = " !";
-                deleted = " 󰆴";
-                untracked = " ?";
-                staged = " +";
-                renamed = " 󰑕";
+                up_to_date = "";
+                modified = "!";
+                deleted = "󰆴";
+                untracked = "?";
+                staged = "+";
+                renamed = "󰑕";
             };
 
             #rust = {
@@ -74,9 +74,9 @@
 
             nix_shell = {
                 disabled = false;
-                format = " [$symbol]($style)";
+                format = " [ $symbol]($style)";
                 style = "blue";
-                symbol = " ";
+                symbol = "";
             };
 
             character = {
