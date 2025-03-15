@@ -1,7 +1,7 @@
 # ❄ myNixOS
 DISCLAMER! This rice is not completed.
 
-![screenshot](./screenshots/screenshot2.png)
+![screenshot](./screenshots/screenshot.png)
 Welcome to my Configuration! This is my FIRST rice and i hope you like it.
 
 # 💻 Soft
@@ -44,6 +44,6 @@ Lets cut out unnecessary words and start the installation
     ```
 # ⭐ End
 
-![screenshot](./screenshots/screenshot.png)
+![screenshot](./screenshots/screenshot2.png)
 
 Enjoy 🌟
