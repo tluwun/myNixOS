@@ -57,5 +57,6 @@
             xfce.tumbler
             tty-clock
             obsidian
+            onboard
         ];
 }
