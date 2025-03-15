@@ -55,12 +55,12 @@
                     stablepkgs = import nixpkgs-stable {
                         inherit system;
                     };
+
                     nurpkgs = import nur {
                         inherit system;
                     };
 
                     inherit inputs;
-                    inherit nur;
                 };
 
             };
