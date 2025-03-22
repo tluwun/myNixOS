@@ -6,7 +6,7 @@
         * {
             border: none;
             border-radius: 0;
-            font-family: JetBrainsMono, Nerd Font;
+            font-family: JetBrainsMono Nerd Font;
             font-size: 13px;
             min-height: 0;
             border-radius: 10px;
