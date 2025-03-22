@@ -13,7 +13,6 @@
             home-manager
             nemo 
             git
-            xfce.ristretto
             libnotify
             swaynotificationcenter
             fastfetch hypridle python3 gnumake qemu telegram-desktop
