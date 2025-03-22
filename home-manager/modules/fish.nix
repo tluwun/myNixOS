@@ -51,7 +51,7 @@
             set fish_color_autosuggestion a89984
             set fish_color_comment a89984
             set fish_greeting
-            set fish_color_param blue --bold --underline
+            set fish_color_param cyan --italics --underline
 
             set prewview_images true
             set prewview_images_method viu

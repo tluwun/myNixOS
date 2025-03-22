@@ -16,12 +16,7 @@
             xfce.ristretto
             libnotify
             swaynotificationcenter
-            fastfetch
-            hypridle
-            python3
-            gnumake
-            qemu
-            telegram-desktop
+            fastfetch hypridle python3 gnumake qemu telegram-desktop
             qemu_kvm
             OVMFFull
             mate.atril
@@ -55,5 +50,6 @@
             tty-clock
             obsidian
             obs-studio
+            imv
         ];
 }
