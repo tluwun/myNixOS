@@ -51,6 +51,22 @@
                     family = "JetBrainsMono Nerd Font";
                     style = "Regular";
                 };
+
+                italic = {
+                    family = "JetBrainsMono Nerd Font";
+                    style = "Italic";
+                };
+
+                bold_italic = {
+                    family = "JetBrainsMono Nerd Font";
+                    style = "Bold Italic";
+                };
+
+                bold = {
+                    family = "JetBrainsMono Nerd Font";
+                    style = "Bold";
+                };
+
                 size = 12.5;
             };
         };
