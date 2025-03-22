@@ -48,8 +48,8 @@
             };
             font = {
                 normal = {
-                    family = "Nerd Font";
-                    style = "JetBrainsMono";
+                    family = "JetBrainsMono Nerd Font";
+                    style = "Regular";
                 };
                 size = 12.5;
             };
