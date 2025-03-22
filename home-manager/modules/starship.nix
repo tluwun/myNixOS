@@ -38,8 +38,7 @@
                 truncation_length = 20;
             };
 
-            hostname = {
-                format = "[$ssh_symbol](green)[ $hostname]($style)";
+            hostname = { format = "[$ssh_symbol](green)[ $hostname]($style)";
                 style = "aqua";
                 ssh_symbol = "󰣀@";
                 ssh_only = false;
@@ -80,10 +79,10 @@
             };
 
             character = {
-                format = "$symbol";
-                success_symbol = "[ ](bold aqua)";
-                error_symbol = "[ ](bold red)";
-                vimcmd_symbol = "[ ](bold green)";
+                format = "$symbol ";
+                success_symbol = "[s](bold aqua)";
+                error_symbol = "[e](bold red)";
+                vimcmd_symbol = "[v](bold green)";
             };
 
         };
