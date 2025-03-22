@@ -48,7 +48,7 @@
             set fish_color_quote yellow
             set fish_color_option blue --italics
             set fish_color_end yellow
-            set fish_color_autosuggestion a89984 --italics --underline
+            set fish_color_autosuggestion a89984 --italics --underline --dim
             set fish_color_comment a89984
             set fish_greeting
             set fish_color_param cyan --italics --underline
