@@ -83,6 +83,9 @@
                 success_symbol = "[s](bold aqua)";
                 error_symbol = "[e](bold red)";
                 vimcmd_symbol = "[v](bold green)";
+                vimcmd_visual_symbol = "[v](bold yellow)";
+                vimcmd_replace_symbol = "[v](bold red)";
+                vimcmd_replace_one_symbol = "[v](bold blue)";
             };
 
         };
