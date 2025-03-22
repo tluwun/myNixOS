@@ -46,7 +46,7 @@
             set fish_color_normal white
             set fish_color_command cyan --bold
             set fish_color_quote yellow
-            set fish_color_option blue --italic
+            set fish_color_option blue --italics
             set fish_color_end yellow
             set fish_color_autosuggestion a89984
             set fish_color_comment a89984
