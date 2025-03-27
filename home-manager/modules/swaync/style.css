@@ -3,7 +3,7 @@
     font-family: "JetBrainsMono Nerd font";
     border: none;
     margin: 0;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
@@ -16,16 +16,15 @@ window {
 
 .notification {
     background: #282828;
-    border-radius: 13px;
+    border-radius: 5px;
     font-family: "JetBrainsMono Nerd font";
     border: none;
     
-    box-shadow: 4px 5px 1px #1d2021;
 }
 
 .notification.critical {
     background: #cc241e;
-    border-radius: 13px;
+    border-radius: 5px;
 }
 
 .notification-title {
