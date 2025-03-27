@@ -16,6 +16,7 @@ window {
 
 .notification {
     background: #282828;
+    color: #ebdbb2;
     border-radius: 5px;
     font-family: "JetBrainsMono Nerd font";
     border: none;
