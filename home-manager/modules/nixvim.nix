@@ -105,6 +105,12 @@
                 key = "<leader>n";
             }
         ];
+        autoCmd = [
+            {
+                command = "NERDTree";
+                event = "VimEnter";
+            }
+        ];
 		
     };
 }
