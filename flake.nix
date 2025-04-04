@@ -67,24 +67,5 @@
             devShells.${system}.default = pkgs.mkShell {
                 packages = with pkgs; [ clang_19 llvm_19 clang-analyzer binutils python313Packages.django nasm nodejs_23 cmake ];
             };
-<<<<<<< HEAD
-            
-=======
-<<<<<<< HEAD
-            
-=======
-            packages.${system}.default = with pkgs; import ./packages/uwufetch.nix { 
-                stdenv = stdenv; 
-                fetchFromGitHub = fetchFromGitHub; 
-                gnumake = gnumake;
-                lib = lib;
-                clang = clang_20;
-                llvm = llvm_20;
-                git = git;
-                binutils = binutils;
-            };           
->>>>>>> e4b0c99 (commit)
->>>>>>> b69c540 (commit)
         };
-        
 }
