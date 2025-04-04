@@ -10,5 +10,9 @@
 
             size = 24;
         };
+        fonts = {
+            package = import ./apple-emoji.nix { inherit pkgs; };
+            name = "";
+        };
     };
 }
