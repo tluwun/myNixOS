@@ -6,7 +6,7 @@
         platformTheme.name = "gtk";
 
         style = {
-            package = pkgs.adwaita-qt;
+            package = pkgs.libsForQt5.qtstyleplugins;
             name = "adwaita-dark";
         };
     };
