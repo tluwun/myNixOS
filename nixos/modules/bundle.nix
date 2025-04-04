@@ -16,7 +16,6 @@
         ./scripts.nix
         ./bluetooth.nix
         ./udisks.nix
-        ./stylix.nix
         #./wireguard.nix
         #./xserver.nix
         ./virt-manager.nix
