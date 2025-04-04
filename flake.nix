@@ -34,7 +34,7 @@
             nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
                 inherit system;
                 
-                modules = [ ./nixos/configuration.nix inputs.stylix.nixosModules.stylix nur.modules.nixos.default ];
+                modules = [ ./nixos/configuration.nix nur.modules.nixos.default ];
                 
                 specialArgs = {
                     
@@ -47,7 +47,7 @@
             homeConfigurations.tluwun = home-manager.lib.homeManagerConfiguration {
                 inherit pkgs;
        
-                modules = [ ./home-manager/home.nix inputs.nixvim.homeManagerModules.nixvim nur.modules.homeManager.default ];
+                modules = [ ./home-manager/home.nix inputs.nixvim.homeManagerModules.nixvim nur.modules.homeManager.default inputs.stylix.nixosModules.stylix ];
 
                 extraSpecialArgs = {
 
