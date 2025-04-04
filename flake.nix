@@ -47,7 +47,7 @@
             homeConfigurations.tluwun = home-manager.lib.homeManagerConfiguration {
                 inherit pkgs;
        
-                modules = [ ./home-manager/home.nix inputs.nixvim.homeManagerModules.nixvim nur.modules.homeManager.default inputs.stylix.nixosModules.stylix ];
+                modules = [ ./home-manager/home.nix inputs.nixvim.homeManagerModules.nixvim nur.modules.homeManager.default inputs.stylix.homeManagerModules.stylix ];
 
                 extraSpecialArgs = {
 
