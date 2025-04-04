@@ -1,6 +1,4 @@
 # ❄ myNixOS
-DISCLAMER! This rice is not completed.
-
 ![screenshot](./screenshots/screenshot.png)
 Welcome to my Configuration! This is my FIRST rice and i hope you like it.
 
