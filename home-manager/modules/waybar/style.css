@@ -25,14 +25,14 @@ tooltip label {
     color: #ebdbb2;
     border-bottom: 5px solid #98971a;
     padding: 0 20px;
-    margin: 2px;
+    
 }
 
 #custom-weather {
     background: #8ec07c;
     color: #ebdbb2;
     border-bottom: 5px solid #689d6a;
-    margin: 2px;
+    
 }
 
 #custom-powerMenu {
@@ -51,7 +51,7 @@ tooltip label {
 #workspaces {
     border-bottom: 5px solid #3c3836;
     background: #504945;
-    margin: 1px;
+    
 }
 
 #workspaces button {
@@ -59,7 +59,7 @@ tooltip label {
     color: #ebdbb2;
     padding: 0 10px;
     border-bottom: 5px solid #1d2021;
-    margin: 2px;
+    
 }
 
 #workspaces button.focused {
@@ -78,7 +78,7 @@ tooltip label {
     border-bottom: 5px solid #98971a;
 }
 
-#network, #clock, #battery, #pulseaudio, #language, #tray, #custom-weather, #bluetooth {
+#network, #battery, #pulseaudio, #language, #tray, #custom-weather, #bluetooth {
     padding: 10px;
 }
 
@@ -94,7 +94,6 @@ tooltip label {
     background: #fe8019;
     color: #ebdbb2;
     border-bottom: 5px solid #d65d0e;
-    margin: 2px;
 }
 
 #clock {
