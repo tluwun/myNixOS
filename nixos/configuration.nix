@@ -5,6 +5,8 @@
         ./hardware-configuration.nix
         ./modules/bundle.nix
     ];
+
+    services.desktopManager.plasma6.enable = false;
   
     programs.nix-ld.enable = true;
     programs.nix-ld.libraries = with pkgs; [
