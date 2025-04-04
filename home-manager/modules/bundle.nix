@@ -20,5 +20,6 @@
             ./packages.nix
             ./udiskie.nix
             ./userDirs.nix
+            ./stylix.nix
     ];
 }
