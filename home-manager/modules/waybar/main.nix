@@ -102,7 +102,7 @@
                     interval = 100;
                     tooltip = false;
                     
-                    max-length = 5;
+                    max-length = 10;
                 };
                 "custom/notificationCenter" = {
                     format = "";
