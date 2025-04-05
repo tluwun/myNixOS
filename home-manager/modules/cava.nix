@@ -5,7 +5,7 @@
 
         settings = {
             general = {
-                mode = "waves";
+                mode = "scientific";
             };
             input = {
                 method = "pipewire";
