@@ -76,7 +76,7 @@
                 disabled = false;
                 format = " [$symbol]($style)";
                 style = "blue";
-                symbol = "";
+                symbol = " ";
             };
 
             character = {
