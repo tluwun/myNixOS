@@ -11,9 +11,10 @@
                 method = "pipewire";
                 source = "auto";
             };
-            colors = {
+            color = {
                 background = "#282828";
                 foreground = "#ebdbb2";
+                gradient = 1;
             };
 
             smoothing = {
