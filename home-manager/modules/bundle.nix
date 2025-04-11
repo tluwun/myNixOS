@@ -1,0 +1,25 @@
+{
+	imports = [
+            ./cursor.nix
+            ./git.nix
+            ./hypr/bundle.nix
+            ./nixvim/main.nix
+            ./gtk.nix 
+            ./rofi.nix
+            ./starship.nix
+            ./fish.nix
+            ./alacritty.nix
+            ./cava.nix
+            ./btop.nix
+            ./firefox.nix
+            ./waybar/main.nix
+            ./fastfetch.nix
+            ./swaync/main.nix
+            ./qt.nix
+            ./mpv.nix
+            ./packages.nix
+            ./udiskie.nix
+            ./userDirs.nix
+            ./ranger.nix
+    ];
+}

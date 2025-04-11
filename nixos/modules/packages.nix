@@ -1,0 +1,52 @@
+{ pkgs, ... }:
+{ 
+    environment.systemPackages = with pkgs; [
+            hyprlock
+            transmission_4-gtk
+            swww
+            waybar
+            alacritty
+            rofi-wayland
+            mpv
+            firefox
+            file-roller
+            home-manager
+            pcmanfm
+            git
+            libnotify
+            swaynotificationcenter 
+            fastfetch 
+            hypridle 
+            python3 
+            telegram-desktop
+            qemu_kvm
+            OVMFFull
+            mate.atril
+            cbonsai
+            sway-audio-idle-inhibit
+            cmatrix
+            btop
+            youtube-music
+            grim
+            slurp
+            ranger
+            rofi-emoji-wayland
+            cliphist
+            wl-clipboard
+            keepassxc
+            pipes
+            playerctl
+            libstatgrab
+            libsForQt5.qt5.qtgraphicaleffects
+            intel-media-driver
+            wev
+            figlet            
+            nix-prefetch-git
+            xfce.tumbler
+            tty-clock
+            obs-studio
+            imv
+            imagemagick
+            ueberzugpp
+        ];
+}
