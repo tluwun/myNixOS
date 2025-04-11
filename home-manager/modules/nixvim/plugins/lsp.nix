@@ -23,6 +23,9 @@
             golangci_lint_ls = {
                 enable = true;
             };
+            nixd = {
+                enable = true;
+            };
         };
     };
 }
