@@ -1,5 +1,5 @@
 { pkgs, ...}: {
-    environment.systemPackages = 
+    environment.systemPackages = [ 
 
         (pkgs.writeShellScriptBin "waybar-weather" ''
             local=Kovel
