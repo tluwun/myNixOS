@@ -64,10 +64,6 @@
                                             mountpoint = "/";
                                             mountOptions = [ "compress=zstd:3" "noatime" ];
                                         };
-                                        "@home" = {
-                                            mountpoint = "/home";
-                                            mountOptions = [ "compress=zstd:3" "noatime" ];
-                                        };
                                     };
                                 };
                             };
