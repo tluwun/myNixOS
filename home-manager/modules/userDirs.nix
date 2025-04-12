@@ -15,7 +15,7 @@
             publicShare = "${config.home.homeDirectory}Public";
             documents = "${config.home.homeDirectory}Documents";
             desktop = "${config.home.homeDirectory}Desktop";
-            downloads = "${config.home.homeDirectory}Downloads";
+            download = "${config.home.homeDirectory}Downloads";
         };
 
     };
