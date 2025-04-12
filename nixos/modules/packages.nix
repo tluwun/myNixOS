@@ -48,5 +48,6 @@
             imv
             imagemagick
             ueberzugpp
+            brightnessctl
         ];
 }
