@@ -30,9 +30,9 @@
                     # "uBlock0@raymondhill.net" = {
                         
                     # };
-                    "simple-translate@sienori" = {
+                    # "simple-translate@sienori" = {
                             
-                    };
+                    # };
 
                 };
             };
