@@ -49,5 +49,6 @@
             imagemagick
             ueberzugpp
             brightnessctl
+            rofi-power-menu
         ];
 }
