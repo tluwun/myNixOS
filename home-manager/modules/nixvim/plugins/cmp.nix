@@ -4,7 +4,7 @@
             cmp-nvim-lsp.enable = true;
             cmp-buffer.enable = true;
             cmp-path.enable = true;
-            cmp-zsh.enable = true;
+            cmp-vsnip.enable = true;
             cmp-cmdline.enable = true;
             cmp = {
                 autoEnableSources = false; 
@@ -34,7 +34,7 @@
                         __raw = ''  
                             cmp.config.sources({
                                 { name = 'nvim_lsp' },
-                                { name = 'vship' },
+                                { name = 'luasnip' },
                                 { name = 'buffer'},
                             })
                         '';
