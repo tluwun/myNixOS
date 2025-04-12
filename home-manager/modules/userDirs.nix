@@ -1,9 +1,9 @@
-{ config, ... }: {
+{ lib, config, ... }: {
     xdg = {
 
         enable = true;
 
-        userDirs = {
+        userDirs = lib.mkIf config.custom.desktop-environment {
             enable = true;
             
             createDirectories = true;

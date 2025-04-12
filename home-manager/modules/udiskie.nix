@@ -3,7 +3,7 @@
         enable = true;
         settings = {
             program_option = {
-                file_manager = "${pkgs.nemo}/bin/nemo";
+                file_manager = "${pkgs.pcmanfm}/bin/pcmanfm";
             };
         };
     };
