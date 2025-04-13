@@ -50,5 +50,6 @@
             ueberzugpp
             brightnessctl
             rofi-power-menu
+            wget
         ];
 }
