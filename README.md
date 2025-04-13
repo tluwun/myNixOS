@@ -29,15 +29,18 @@ Lets cut out unnecessary words and start the installation
     git clone https://github.com/tluwun/myNixOS
     cd myNixOS
     ```
-3. **Change the hostname and username in flake.nix**
-
-4. **Copy hardware-configuration.nix to nixos** ->
+3. **Copy hardware-configuration.nix to nixos** ->
     ```bash
     cp /etc/nixos/hardware-configuration.nix nixos/
     ```
-5. **Rebuild Configuration** ->
+4. **Rebuild Configuration** ->
     ```bash 
-    sudo nixos-rebuild boot --flake . && home-manager switch --flake .
+    sudo nixos-rebuild boot --flake ./#yourhostname && home-manager switch --flake ./#yourusername
+    ```
+5. **change in flake.nix username and hostname**
+    ```bash
+        nixosConfiguration.yourhostname = nixpkgs.lib.nixosSystem = { #change in this line hostname
+        homeConfigurations.yourusername = home-manager.lib.homeManagerConfiguration {
     ```
 # ⭐ End
 

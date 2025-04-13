@@ -30,7 +30,7 @@
             pkgs = nixpkgs.legacyPackages.${system};
 
         in {
-            nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+            nixosConfigurations.NixOS = nixpkgs.lib.nixosSystem {
                 inherit system;
                 
                 modules = [ ./nixos/configuration.nix nur.modules.nixos.default ];
