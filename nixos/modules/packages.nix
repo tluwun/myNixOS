@@ -11,7 +11,7 @@
             firefox
             file-roller
             home-manager
-            pcmanfm
+            nemo
             git
             libnotify
             swaynotificationcenter 

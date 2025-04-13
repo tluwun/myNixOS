@@ -3,7 +3,7 @@
         "$mainMod" = "SUPER";
         "$terminal" = "alacritty";
         "$menu" = "rofi -show drun";
-        "$fileManager" = "pcmanfm";
+        "$fileManager" = "nemo";
 
         env = [
             "QT_QPA_PLATFORM, wayland"
