@@ -2,7 +2,7 @@
     zramSwap = {
         enable = true;
         
-        algorithm = "lz4";
+        algorithm = "zstd";
 
         memoryMax = 1073741824 * 8;
     };
