@@ -87,16 +87,8 @@
 
                 "hyprland/workspaces" = {
                     
-                    format = "{id}:{windows}";
+                    format = "{id}";
 
-                    window-rewrite = {
-                        "title<.*youtube.*>" = "󰗃";
-                        "class<firefox>" = "󰈹";
-                        "class<org.telegram.desktop>" = "";
-                        "class<Alacritty>" = "";
-                        "class<mpv>" = " ";
-                        "class<pcmanfm>" = " ";
-                    };
                 };
                 "custom/weather" = {
                     exec = "waybar-weather";
