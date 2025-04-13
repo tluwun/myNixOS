@@ -20,7 +20,8 @@
         libGL
     ];
     
-    networking.hostName = "nixos"; # Set a hostname
+    networking.hostName = "NixOS"; # Set a hostname
+
     # Set your time zone.
     time.timeZone = "Europe/Kyiv";
     
