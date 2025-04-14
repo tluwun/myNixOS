@@ -30,7 +30,7 @@ Lets cut out unnecessary words and start the installation
     cd myNixOS
     ```
 3. **Copy hardware-configuration.nix to nixos** ->
-    ```bash
+    ```vim
     cp /etc/nixos/hardware-configuration.nix nixos/
     ```
 4. **Rebuild Configuration** ->
