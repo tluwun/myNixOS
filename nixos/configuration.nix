@@ -19,6 +19,8 @@
         xorg.libXi
         libGL
     ];
+
+    programs.nano.enable = false;
     
     networking.hostName = "NixOS"; # Set a hostname
 
