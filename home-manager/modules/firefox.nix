@@ -86,6 +86,7 @@
                     {
                         name = "x4";
                         url = "javascript:void(document.querySelector('video').playbackRate = 4)";
+                        toolbar = true;
                     }
                 ];
                 force = true;
