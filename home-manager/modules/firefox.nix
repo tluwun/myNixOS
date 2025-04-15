@@ -88,6 +88,7 @@
                         url = "javascript:void(document.querySelector('video').playbackRate = 4)";
                     }
                 ];
+                force = true;
             };
         };
     };
