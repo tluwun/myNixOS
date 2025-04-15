@@ -81,18 +81,14 @@
                 "privacy.trackingprotection.enabled" = true;
                 "privacy.donottrackheader.enabled" = true;
             };
-            #bookmarks = [
-                #{
-                    #name = "Home manager options";
-                    #url = "https://home-manager-options.extranix.com/?query=&release=master";
-                    #toolbar = true;
-                #}
-                #{
-                    #name = "Nixos packages";
-                    #url = "https://search.nixos.org";
-                    #toolbar = true;
-                #}
-            #];
+            bookmarks = {
+                settings = [
+                    {
+                        name = "x4";
+                        url = "javascript:void(document.querySelector('video').playbackRate = 4)";
+                    }
+                ];
+            };
         };
     };
 }
