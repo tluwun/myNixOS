@@ -4,7 +4,7 @@
             cmp-nvim-lsp.enable = true;
             cmp-buffer.enable = true;
             cmp-path.enable = true;
-            cmp-vsnip.enable = true;
+            luasnip.enable = true;
             cmp-cmdline.enable = true;
             cmp = {
                 autoEnableSources = false; 
@@ -26,7 +26,7 @@
                     };
 
                     snippet = {
-                        expand = "function(args) require('vsnip').lsp_expand(args.body) end";
+                        expand = "function(args) require('luasnip').lsp_expand(args.body) end";
                     };
                     
                     sources = {
@@ -34,7 +34,7 @@
                         __raw = ''  
                             cmp.config.sources({
                                 { name = 'nvim_lsp' },
-                                { name = 'vsnip' },
+                                { name = 'luasnip' },
                                 { name = 'buffer'},
                             })
                         '';
