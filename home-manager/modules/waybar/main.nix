@@ -77,7 +77,7 @@
                 "custom/powerMenu" = {
                     format = "⏻";
                     tooltip = false;
-                    on-click = "rofi -show menu -modes 'menu:rofi-power-menu'";
+                    on-click = "rofi-power-menu";
                 };
 
                 "tray" = {
