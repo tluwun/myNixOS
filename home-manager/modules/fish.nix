@@ -57,8 +57,6 @@
             set fish_color_param blue
             set fish_color_escape cyan --italics --bold
             set fish_color_operator green --bold
-            set prewview_images true
-            set prewview_images_method viu
 
             fastfetch
             set -g fish_key_bindings fish_vi_key_bindings
