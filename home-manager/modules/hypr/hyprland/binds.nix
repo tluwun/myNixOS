@@ -1,4 +1,4 @@
-{
+{ config, ... }: {
     wayland.windowManager.hyprland.settings = { 
          
         bind = [
@@ -86,14 +86,14 @@
             "SHIFT, Xf86AudioMute, exec, wpctl set-mute @DEFAULT_SOURCE@ toggle"
         ];
 
-        bindl = let ScreenShotDir = "$HOME/Pictures/screenshots.png"; in [
+        bindl = let ScreenShotDir = "${config.home.homeDirectory}Pictures/screenshot.png"; in [
             # Bind(s) for player
             ", F10, exec, playerctl position 5-"
             ", F11, exec, playerctl play-pause"
             ", F12, exec, playerctl position 5+"
 
             # Bind(s) for screenshots
-            "$mainMod, X, exec, grim -g $(slurp) ${ScreenShotDir}"
+            "$mainMod, X, exec, slurp | grim -g - ${ScreenShotDir}"
             ", Print, exec, grim -c ${ScreenShotDir}"
         ];
 
