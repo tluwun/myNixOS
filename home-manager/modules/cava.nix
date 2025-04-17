@@ -4,16 +4,18 @@
         package = stablepkgs.cava;
 
         settings = {
+
             general = {
                 mode = "scientific";
             };
+
             input = {
                 method = "pipewire";
                 source = "auto";
             };
+
             color = {
                 background = "#282828";
-                foreground = "#ebdbb2";
             };
 
             smoothing = {
