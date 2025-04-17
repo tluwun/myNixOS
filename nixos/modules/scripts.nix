@@ -5,9 +5,6 @@
             local=Kovel
             curl -s "wttr.in/$local?format=1"
         '')
-        (pkgs.writeShellScriptBin "makeScreenshot" ''
-            grim -g $(slurp) ~/Pictures/screenshots/screenshot-$(date | tr " " "_")  
-        '')
     ];
 
 }
