@@ -2,9 +2,7 @@
     wayland.windowManager.hyprland.settings = { 
          
         bind = [
-            # Binds for windows
-            "$mainMod, Q, killactive"
-            "$mainMod, P, pseudo"
+            # Binds for windows "$mainMod, Q, killactive" "$mainMod, P, pseudo"
             "$mainMod, V, togglefloating"
             "$mainMod SHIFT, V, fullscreen"
             "$mainMod, G, togglesplit"
@@ -86,14 +84,16 @@
             "SHIFT, Xf86AudioMute, exec, wpctl set-mute @DEFAULT_SOURCE@ toggle"
         ];
 
-        bindl = let ScreenShotDir = "${config.home.homeDirectory}Pictures/screenshot.png"; in [
+        bindl = let 
+            ScreenShotDir = "${config.home.homeDirectory}Pictures/screenshot-$(date | tr ' ' '-').png"; 
+        in [
             # Bind(s) for player
             ", F10, exec, playerctl position 5-"
             ", F11, exec, playerctl play-pause"
             ", F12, exec, playerctl position 5+"
 
             # Bind(s) for screenshots
-            "$mainMod, X, exec, slurp | grim -g - ${ScreenShotDir}"
+            "$mainMod, X, exec, grim -g \"$(slurp)\" ${ScreenShotDir}"
             ", Print, exec, grim -c ${ScreenShotDir}"
         ];
 
