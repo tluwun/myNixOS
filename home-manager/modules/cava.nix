@@ -14,10 +14,6 @@
                 source = "auto";
             };
 
-            color = {
-                background = "#282828";
-            };
-
             smoothing = {
                 integral = 120;
                 gravity = 80;
