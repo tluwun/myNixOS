@@ -21,7 +21,6 @@
             telegram-desktop
             qemu_kvm
             OVMFFull
-            mate.atril
             cbonsai
             sway-audio-idle-inhibit
             cmatrix
@@ -51,5 +50,6 @@
             brightnessctl
             rofi-power-menu
             wget
+            zathura
         ];
 }
