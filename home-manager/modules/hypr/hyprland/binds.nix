@@ -2,7 +2,9 @@
     wayland.windowManager.hyprland.settings = { 
          
         bind = [
-            # Binds for windows "$mainMod, Q, killactive" "$mainMod, P, pseudo"
+            # Binds for windows 
+            "$mainMod, Q, killactive" 
+            "$mainMod, P, pseudo"
             "$mainMod, V, togglefloating"
             "$mainMod SHIFT, V, fullscreen"
             "$mainMod, G, togglesplit"
