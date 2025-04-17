@@ -57,7 +57,7 @@
 
             # Menu binds
             "$mainMod SHIFT, M, exec, rofi -show emoji"
-            "$mainMod CTRL, M, exec, rofi -show buffer, -modes 'buffer:cliphist-rofi'"
+            "$mainMod CTRL, M, exec, rofi -show buffer -modes 'buffer:cliphist-rofi'"
             "$mainMod, M, exec, $menu"
             
             # Binds for exec windows 
