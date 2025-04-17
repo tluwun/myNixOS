@@ -5,15 +5,6 @@
         let 
             Alacritty = "class:(Alacritty), title:(Alacritty)";
         in [
-            # Pavucontrol
-            "size 673 572, title:(Керування гучністю)"
-            "float, title:(Керування гучністю)"
-            "move 1238 63, title:(Керування гучністю)"
-            "plugin:hyprbars:nobar, title:(Керування гучністю)"
-            # Calender rules
-            "move 564 64, title:(Календар)"
-            "size 816 592, title:(Календар)"
-            "float, title:(Календар)"
             # Rules for Firefox
             "workspace 1, class:(firefox)"
             # Rules for Alacritty
@@ -31,11 +22,10 @@
             "size 709 506, class:(imv)"
             "plugin:hyprbars:nobar, class:(obsidian), initalTitle:(Obsidian)"
             # Rules for all windows
-            "plugin:hyprbars:nobar, floating: 0"
+            # "plugin:hyprbars:nobar, floating: 0"
             # The other
             "float, class:(.blueman-manager-wrapped), title:(Bluetooth Devices)"
-            "workspace 3, class:(org.telegram.desktop)"
-            "nodim, floating:1, workspace: 2, class:(Alacritty), initalTitle:(Alacritty)"
+            "nodim, floating:1, class:(Alacritty), initalTitle:(Alacritty)"
         ];
     };
 }

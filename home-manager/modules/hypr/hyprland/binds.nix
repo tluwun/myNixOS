@@ -60,9 +60,10 @@
             "$mainMod CTRL, M, exec, rofi -show buffer -modes 'buffer:cliphist-rofi'"
             "$mainMod, M, exec, $menu"
             
-            # Binds for exec windows 
+            # Binds for execute windows 
             "$mainMod, F, exec, $fileManager"
             "$mainMod, Return, exec, $terminal"
+            "$mainMod, T, exec, telegram-desktop"
 
             # Another binds
             "$mainMod SHIFT, W, exec, pkill -SIGUSR2 .waybar-wrapped"
