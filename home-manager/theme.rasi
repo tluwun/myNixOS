@@ -25,7 +25,7 @@ element-text {
 
 element-icon {
     background-color: transparent;
-    size: 50;
+    size: 25px;
 }
 
 element normal.normal {
@@ -67,8 +67,8 @@ entry {
 }
 
 listview {
-    columns: 3;
-    lines: 4;
+    columns: 5;
+    lines: 5;
     cycle: false;
 }
 
