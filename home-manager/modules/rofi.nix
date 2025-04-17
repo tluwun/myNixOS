@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ pkgs, config, ... }: {
     programs.rofi = {
         enable = true;
 
@@ -8,11 +8,14 @@
 
             show-icons = true;
 
-            display-drun = "app";
+            display-drun = "App";
             display-run = "run";
             display-calc = "calc";
             display-emoji = "😀";
 
+            icons-theme = "Gruvbox-Plus-Dark";
+
+            font = "JetBrainsMono Nerd Font 12";
 
         };
 
@@ -20,6 +23,6 @@
 
         terminal = "${pkgs.alacritty}/bin/alacritty";
         
-        theme = "~/myNixOS/home-manager/theme.rasi";
+        theme = "${config.home.homeDirectory}myNixOS/home-manager/theme.rasi";
     };
 }
