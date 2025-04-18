@@ -77,8 +77,8 @@
          
         bindel = [
             # Setting up a bind volume button
-            ", Xf86audioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%+"
-            ", Xf86audioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-"
+            ", Xf86audioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%+ -l 1.0"
+            ", Xf86audioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%- -l 1.0"
             ", Xf86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
 
             # Bind volume button for Source
