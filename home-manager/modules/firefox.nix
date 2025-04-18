@@ -17,7 +17,7 @@
                     decentraleyes
                     duckduckgo-privacy-essentials
                     ublock-origin
-                    surfingkeys
+                    tridactyl
                     remove-youtube-s-suggestions
                     adaptive-tab-bar-colour
                     sponsorblock
