@@ -10,7 +10,7 @@
                 height = 52; 
 
                 modules-left = [ "hyprland/workspaces" "tray" ];
-                modules-right = [ "battery" "custom/weather"  "wireplumber" "network" "hyprland/language" "custom/notificationCenter" "custom/powerMenu" ];
+                modules-right = [ "battery" "custom/weather" "pulseaudio" "network" "hyprland/language" "custom/notificationCenter" "custom/powerMenu" ];
                 modules-center = [ "clock" ];
                 
                 "battery" = {
