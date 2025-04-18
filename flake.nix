@@ -64,7 +64,7 @@
             };
 
             devShells.${system}.default = pkgs.mkShell {
-                packages = with pkgs; [ clang_19 llvm_19 nasm nodejs_23 cmake go ];
+                packages = with pkgs; [ clang_19 llvm_19 nasm nodejs_23 cmake go typescript ];
             };
         };
 }
