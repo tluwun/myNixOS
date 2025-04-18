@@ -91,9 +91,9 @@
             ScreenShotDir = "${config.home.homeDirectory}Pictures/screenshot-$(date | tr ' ' '-').png"; 
         in [
             # Bind(s) for player
-            ", F10, exec, playerctl position 5-"
-            ", F11, exec, playerctl play-pause"
-            ", F12, exec, playerctl position 5+"
+            ", XF86AudioPrev, exec, playerctl position 5-"
+            ", XF86AudioPlay, exec, playerctl play-pause"
+            ", XF86AudioNext, exec, playerctl position 5+"
 
             # Bind(s) for screenshots
             "$mainMod, X, exec, grim -g \"$(slurp)\" ${ScreenShotDir}"
