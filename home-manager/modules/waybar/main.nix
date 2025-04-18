@@ -48,7 +48,7 @@
 
                     tooltip = false;
                 };
-                "wireplumber" = {
+                "pulseaudio" = {
                     format = "{volume}% {icon} {format_source}";
                     format-source = "{volume}% 󰍬";
 
