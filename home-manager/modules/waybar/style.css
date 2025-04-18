@@ -76,7 +76,7 @@ tooltip label {
     border-bottom: 5px solid #98971a;
 }
 
-#network, #battery, #pulseaudio, #language, #tray, #custom-weather, #bluetooth {
+#network, #battery, #wireplumber, #language, #tray, #custom-weather, #bluetooth {
     padding: 10px;
 }
 
@@ -113,7 +113,7 @@ tooltip label {
     border-bottom: 5px solid #98971a;
 }
 
-#pulseaudio {
+#wireplumber {
     color: #ebdbb2;
     background: #fabd2f;
     border-bottom: 5px solid #d79921;
