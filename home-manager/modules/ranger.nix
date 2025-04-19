@@ -3,7 +3,7 @@
         enable = true;
         
         settings = {
-            preview_images_method = "ueberzug";
+            preview_images_method = "ueberzugpp";
         };
     };
 }
