@@ -1,0 +1,29 @@
+{
+	imports = [
+            ./cursor.nix
+            ./git.nix
+            ./hypr/bundle.nix
+            ./nixvim/main.nix
+            ./gtk.nix 
+            ./rofi.nix
+            ./starship.nix
+            ./fish.nix
+            ./alacritty.nix
+            ./cava.nix
+            ./btop.nix
+            ./firefox.nix
+            ./waybar/main.nix
+            ./fastfetch.nix
+            ./mako.nix
+            ./qt.nix
+            ./mpv.nix
+            ./packages.nix
+            ./udiskie.nix
+            ./userDirs.nix
+            ./ranger.nix
+            ./cmus.nix
+            ./keepassxc.nix
+            ./zathura.nix
+            ./imv.nix
+    ];
+}

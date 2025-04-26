@@ -1,0 +1,99 @@
+* {
+    fg: #ebdbb2;
+    bg: #282828;
+    background-color: @bg;
+    text-color: @fg;
+    inPad: 4px;
+}
+
+element {
+
+    enabled: true;
+
+    padding: 10;
+    margin: 10;
+
+    background-color: transparent;
+    text-color: @fg;
+
+    orientation: vertical;
+}
+
+element-text {
+    background-color: transparent;
+}
+
+element-icon {
+    background-color: transparent;
+    size: 50;
+}
+
+element normal.normal {
+    background-color: inherit; 
+    text-color: @fg;
+}
+
+element selected.normal {
+    background-color: #d79921;
+    border-radius: 5px;
+}
+
+element selected.active {
+    background-color: #458588;
+}
+
+window {
+    enabled: true;
+    border-radius: 12px;
+}
+
+mainbox {
+    enabled: true;
+    background-color: transparent;
+    children: [ "inputbar", "message", "listview", "mode-switcher" ];
+}
+
+inputbar {
+    enabled: true;
+    text-color: @fg;
+    background-color: #d65d0e;
+    padding: @inPad;
+    border-radius: 15px;
+}
+
+entry {
+    background-color: transparent;
+    padding: @inPad;
+}
+
+listview {
+    columns: 3;
+    lines: 4;
+    cycle: false;
+}
+
+prompt {
+    background-color: #98971a;
+    text-color: #ebdbb2;
+    border-radius: 15;
+    padding: @inPad;
+}
+
+case-indicator {
+    background-color: transparent;
+}
+
+mode-switcher {
+    background-color: #689d6a;
+    border-radius: 12px;
+    padding: 3px;
+}
+
+button {
+    background-color: transparent;
+}
+
+button selected {
+    background-color: #b16286;
+    border-radius: 15;
+}
