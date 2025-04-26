@@ -2,7 +2,7 @@
 
     users.users.tluwun = {
         isNormalUser = true;
-        hashedPassword = "$6$UNx5E.yvQHrzOjeL$gvslPgNk.T/J0c/48gjcbZwlYCf/S3VcV3.DfrixE0kzEPUK9uNPaZYtpR9tETB6z6gPkUwYz3U.8rXrwADnM1";
+        hashedPassword = "$6$x4tXHuZttneUNN1w$SiptKXkkAH1jof9AZz4rsPcQmTCogulgeO6aouMBUBH9w.MSnAvF.jEyTk3VW4CIGm59gFQLyxFDDFERUTmgb0";
 
         extraGroups = [ "audio" "video" "wheel" "libvirt" ];
         shell = pkgs.fish;
