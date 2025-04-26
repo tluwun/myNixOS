@@ -18,8 +18,8 @@
 
         anchor = "top-right";
 
-        incons = true;
+        icons = true;
         font = "JetBrainsMono Nerd Font 15";
-        iconPath = "${pkgs.gruvbox-plus-icons}";
+        iconPath = "${pkgs.gruvbox-plus-icons}/share/icons/Gruvbox-Plus-Dark";
     };
 }
