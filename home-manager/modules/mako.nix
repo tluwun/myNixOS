@@ -6,7 +6,7 @@
         textColor = "#ebdbb2";
 
         height = 500;
-        width = 250;
+        width = 350;
 
         defaultTimeout = 5000;
 
