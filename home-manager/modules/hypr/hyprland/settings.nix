@@ -2,7 +2,9 @@
     wayland.windowManager.hyprland.settings = {
             
         # Configuration monitor(s)
-        monitor = ",preferred,auto,1";
+        monitor =  [ 
+            "eDP-1, 1920x1080, 0x0, 1"
+        ];
          
         # General settings
         general = {
